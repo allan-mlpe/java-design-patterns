@@ -1,11 +1,13 @@
 # Padrão Strategy
 
 <h3>Contexto</h3>
+
 - Geralmente utilizado para encapsular uma família de algoritmos, de forma que seja possível trocar o algoritmo em tempo de execução 
 
 - Cria uma interface que representa um comportamento que varia (um método, por exemplo) e compõe a classe com implementações dessa interface.
 
 <h3>Aplicabilidade</h3>
+
 - Classes similares com comportamentos específicos diferentes.
 
 - Necessidade de troca de algoritmo em tempo de execução do programa.
