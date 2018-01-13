@@ -1,8 +1,10 @@
 # Padrão Strategy
 
+[Padrão Comportamental]
+
 <h3>Contexto</h3>
 
-- Geralmente utilizado para encapsular uma família de algoritmos, de forma que seja possível trocar o algoritmo em tempo de execução 
+- Geralmente utilizado para encapsular uma família de algoritmos, de forma que seja possível trocar o algoritmo em tempo de execução. 
 
 - Cria uma interface que representa um comportamento que varia (um método, por exemplo) e compõe a classe com implementações dessa interface.
 
