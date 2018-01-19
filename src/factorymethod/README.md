@@ -20,4 +20,4 @@
 
 - :heavy_check_mark: Oferece flexibilidade, uma vez que dá às subclasses um hook para prover tipos específicos de um dado objeto.
 
-- :x: Pode ser necessária a criação de uma subclasse apenas para criar uma classe concreta.
+- :x: Pode ser necessária a criação subclasses apenas com a responsabilidade de criar uma classe concreta de um dado objeto.
