@@ -1,4 +1,4 @@
-# Padrão Factory Method*
+# Padrão Factory Method
 
 [Padrão de Criação]
 
