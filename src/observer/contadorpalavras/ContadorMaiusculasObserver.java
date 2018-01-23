@@ -1,4 +1,4 @@
-package observer;
+package observer.contadorpalavras;
 
 public class ContadorMaiusculasObserver implements ContadorPalavrasObserver {
 

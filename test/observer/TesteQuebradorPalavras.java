@@ -1,5 +1,9 @@
 package observer;
 
+import observer.contadorpalavras.ContadorMaiusculasObserver;
+import observer.contadorpalavras.ContadorParesObserver;
+import observer.contadorpalavras.ContadorSimplesObserver;
+import observer.contadorpalavras.QuebradorPalavras;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

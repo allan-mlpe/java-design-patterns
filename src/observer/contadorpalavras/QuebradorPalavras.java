@@ -1,4 +1,4 @@
-package observer;
+package observer.contadorpalavras;
 
 import java.util.HashMap;
 import java.util.Map;
