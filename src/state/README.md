@@ -10,18 +10,16 @@
 
 <h3>Aplicabilidade</h3>
 
-- Uma abstração e sua implementação devem ser definidas e estendidas independentemente uma da outra.
+- Permitir que um objeto altere o seu comportamento quando o seu estado interno é alterado.
 
 - Evitar cadeias de estruturas de decisão que variam o comportamento a ser executado de acordo com o estado de um objeto. 
 
 <h3>Consequênicas</h3>
 
-- :heavy_check_mark: Melhoria da extensibilidade da aplicação.
+- :heavy_check_mark: Facilita a inclusão de novos estados. Torna a manutenção, modificação e extensão do código mais fácil.
 
-- :heavy_check_mark: Desacoplamento entre as abstrações e suas implementações.
+- :heavy_check_mark: Objetos de estado podem ser compartilhados.
 
-- :heavy_check_mark: Interface e implementação podem variar independentemente.
+- :heavy_check_mark: Melhora a coesão, uma vez que os comportamentos específicos são incluídos nas classes concretas que representam os estados.
 
-- :x: Aumento da complexidade.
-
-- :x: Pode ter efeito negativo na performance.
+- :x: Aumento da complexidade, devido ao aumento do número de classes.
