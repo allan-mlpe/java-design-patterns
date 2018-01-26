@@ -5,7 +5,7 @@ public class TrechoAereoComEscala implements TrechoAereo {
     TrechoAereo trechoInicial;
     TrechoAereo trechoFinal;
 
-    public TrechoAereoComEscala(TrechoAereoSimples t1, TrechoAereoSimples t2) {
+    public TrechoAereoComEscala(TrechoAereo t1, TrechoAereo t2) {
         if(t1.getDestino().equals(t2.getOrigem())) {
             trechoInicial = t1;
             trechoFinal = t2;
