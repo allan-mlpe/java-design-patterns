@@ -20,7 +20,7 @@
 
 - Quando desejamos que os clientes sejam capazes de ignorar as diferenças entre composições de objetos e objetos individuais, tornando-os, assim, mais simples.
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Permite a construção de elementos complexos a partir de elementos simples.
 
