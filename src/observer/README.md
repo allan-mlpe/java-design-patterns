@@ -14,7 +14,7 @@
 
 - Vários objetos dependem do estado de um objeto específico. 
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Reduz o acoplamento entre as classes do projeto.
 
