@@ -25,7 +25,7 @@
 
 - Classes que podem assumir comportamentos diferentes a depender dos parâmetros passados para o construtor padrão.
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Fornece descrições explícitas acerca da finalidade da instância criada.
 
