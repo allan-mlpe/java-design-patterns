@@ -14,7 +14,7 @@
 
 - É desejável que as subclasses definam que os objetos que lhes são necessários.
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Permite que uma classe adie a instanciação das subclasses.
 
