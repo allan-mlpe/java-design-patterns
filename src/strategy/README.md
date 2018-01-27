@@ -16,7 +16,7 @@
 
 - Muitos condicionais, aninhados ou não, para escolher entre comportamentos diferentes.
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Evita a duplicação de código.
 
