@@ -14,7 +14,7 @@
 
 - Utilizamos esse padrão quando precisamos criar/representar objetos "vazios". Por exemplo: um carrinho de compras vazio, sem itens, sem valor total, etc.
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Reduz ou até elimina a necessidade checagem da nulidade de um objeto (`(obj == null) { ... }`).
 
