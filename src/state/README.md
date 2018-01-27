@@ -14,7 +14,7 @@
 
 - Evitar cadeias de estruturas de decisão que variam o comportamento a ser executado de acordo com o estado de um objeto. 
 
-<h3>Consequênicas</h3>
+<h3>Consequências</h3>
 
 - :heavy_check_mark: Facilita a inclusão de novos estados. Torna a manutenção, modificação e extensão do código mais fácil.
 
