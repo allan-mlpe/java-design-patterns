@@ -38,4 +38,15 @@ public class TesteProxySeguranca {
             assertFalse(mock.isFoiAcessado());
         }
     }
+
+    @Test(expected = RuntimeException.class)
+    public void testeThrowRuntimeException() {
+        Usuario u = new Usuario("User1");
+
+        u.autorizaAcesso("InterfaceNegocio", "executaTransacao");
+        NegocioMock mock = new NegocioMock();
+        InterfaceNegocio i = new ProxySegurancaNegocio(mock, u);
+
+        i.cancelaTransacao();
+    }
 }
