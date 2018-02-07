@@ -1,0 +1,24 @@
+package proxy;
+
+public class NegocioMock implements InterfaceNegocio {
+
+    private boolean foiAcessado = false;
+
+    @Override
+    public void executaTransacao() {
+        foiAcessado = true;
+    }
+
+    @Override
+    public void cancelaTransacao() {
+        foiAcessado = true;
+    }
+
+    public boolean isFoiAcessado() {
+        return foiAcessado;
+    }
+
+    public void setFoiAcessado(boolean foiAcessado) {
+        this.foiAcessado = foiAcessado;
+    }
+}
